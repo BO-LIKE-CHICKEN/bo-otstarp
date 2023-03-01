@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "This is a UI design system for react applications created by BO.",
   "main": "index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "test"
   },
@@ -15,10 +16,16 @@
   },
   "license": "ISC",
   "dependencies": {
+    "react": "^17.0.2",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "@storybook/react": "^6.5.16",
-    "emotion": "^11.0.0",
     "framer-motion": "^10.0.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/react": "^6.3.7",
+    "typescript": "^4.3.5"
   }
 }
