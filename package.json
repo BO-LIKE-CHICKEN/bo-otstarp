@@ -17,10 +17,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "react": "^17.0.2",
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
-    "framer-motion": "^10.0.1"
+    "framer-motion": "^10.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.7",
