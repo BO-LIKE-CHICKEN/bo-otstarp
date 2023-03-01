@@ -13,5 +13,8 @@
     "name": "bo-like-chicken",
     "url": "https://github.com/BO-LIKE-CHICKEN"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^10.0.1"
+  }
 }
