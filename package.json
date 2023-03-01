@@ -1,0 +1,17 @@
+{
+  "name": "bo-otstrap",
+  "version": "0.1.0",
+  "description": "This is a UI design system for react applications created by BO.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "component"
+  ],
+  "author": {
+    "name": "bo-like-chicken",
+    "url": "https://github.com/BO-LIKE-CHICKEN"
+  },
+  "license": "ISC"
+}
