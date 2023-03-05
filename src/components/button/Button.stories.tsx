@@ -19,9 +19,5 @@ export default {
 // 더 많은 정보는 Storybook 공식 문서를 참고하세요: https://storybook.js.org/docs/react/api/args-stories
 
 export const Default = (): JSX.Element => (
-  <Button
-    label="Whereas disregard and contempt for human rights have resulted
-  "
-    onClick={action('clicked')}
-  />
+  <Button onClick={action('clicked')}>Button</Button>
 );

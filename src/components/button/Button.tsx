@@ -1,16 +1,34 @@
 import React from 'react';
+// import * as S from './Button.style';
+
+type ButtonMode = 'default' | 'primary' | 'secondary' | 'link' | 'danger';
+type ButtonVariant = 'text' | 'angular' | 'rounded' | 'contained';
+type ButtonType = 'button' | 'submit' | 'reset';
 
 interface ButtonProps {
-  label: string;
+  mode?: ButtonMode;
+  variant?: ButtonVariant;
+  bordered?: boolean;
+  children: React.ReactNode;
   onClick?: () => void;
+  type?: ButtonType;
+  disabled?: boolean;
 }
 
-const TestButton: React.FC<ButtonProps> = ({ label, onClick }) => {
+const Button: React.FC<ButtonProps> = ({
+  children,
+  onClick,
+  variant = 'rounded',
+  mode = 'default',
+  bordered = false,
+  type = 'button',
+  disabled = false,
+}) => {
   return (
-    <button type="button" onClick={onClick}>
-      {label}
+    <button type={type} onClick={onClick}>
+      {children}
     </button>
   );
 };
 
-export default TestButton;
+export default Button;
