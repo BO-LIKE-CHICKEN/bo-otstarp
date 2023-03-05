@@ -3,7 +3,8 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "react", "react-hooks"],
   "env": {
@@ -17,5 +18,8 @@
   },
   "rules": {
     "react/prop-types": "off"
+  },
+  "react": {
+    "version": "detect"
   }
 }
